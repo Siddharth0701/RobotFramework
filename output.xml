@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 4.1.2 (Python 3.9.7 on win32)" generated="20211031 01:16:19.314" rpa="false" schemaversion="2">
+<suite id="s1" name="TC1" source="C:\Users\siddh\PycharmProjects\RobotFramework\TestCases\TC1.robot">
+<test id="s1-t1" name="LoginTest">
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>https://demo.nopcommerce.com/</arg>
+<arg>chrome</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20211031 01:16:19.534" level="INFO">Opening browser 'chrome' to base url 'https://demo.nopcommerce.com/'.</msg>
+<status status="PASS" starttime="20211031 01:16:19.534" endtime="20211031 01:16:23.728"/>
+</kw>
+<kw name="click link xpath:">
+<arg>//a[@class="ico-login"]</arg>
+<msg timestamp="20211031 01:16:23.733" level="FAIL">No keyword with name 'click link xpath:' found.</msg>
+<status status="FAIL" starttime="20211031 01:16:23.733" endtime="20211031 01:16:23.733"/>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>id:Email pavanoltraining@gmail.com</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="NOT RUN" starttime="20211031 01:16:23.734" endtime="20211031 01:16:23.734"/>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>id:Password Test@123</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="NOT RUN" starttime="20211031 01:16:23.735" endtime="20211031 01:16:23.735"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>xpath://input[@class='button-1 Login-button']</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="NOT RUN" starttime="20211031 01:16:23.736" endtime="20211031 01:16:23.736"/>
+</kw>
+<kw name="Close Browser" library="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="NOT RUN" starttime="20211031 01:16:23.737" endtime="20211031 01:16:23.737"/>
+</kw>
+<status status="FAIL" starttime="20211031 01:16:19.534" endtime="20211031 01:16:23.737">No keyword with name 'click link xpath:' found.</status>
+</test>
+<status status="FAIL" starttime="20211031 01:16:19.322" endtime="20211031 01:16:23.740"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="0" fail="1" skip="0" id="s1" name="TC1">TC1</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
